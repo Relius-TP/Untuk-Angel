@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Untuk Michelle Angelin 🌸</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff0f6;
+      color: #333;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2em;
+      color: #d6336c;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+    .final {
+      background: #ffe3ec;
+      padding: 60px 20px;
+    }
+    .btn {
+      background-color: #d6336c;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: 10px;
+      width: 70%;
+      max-width: 300px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #c2255c;
+    }
+    .yes-message, .no-message {
+      display: none;
+      font-size: 1.5em;
+      color: #d6336c;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Hai, Ngel ✨</h1>
+    <p>Website ini aku buat khusus buat kamu. Scroll e pelan-pelan ya...</p>
+  </section>
+
+  <section>
+    <h1>Kita Udah Lewat Banyak Hal</h1>
+    <p>Dari chatingan terus, tlfn tiap malem, sampe km ngambek yang susah banget ditenangin 🤣.</p>
+  </section>
+
+  <section>
+    <h1>Aku Suka Kamu dan Aku Sayang Kamu</h1>
+    <p>Makin lama aku makin suka. Cara kamu ketawa, peduli, bahkan hal kecil yang kamu lakuin selalu bikin aku senyum sendiri.</p>
+    <p>Pas nonton bareng, jujur aku seneng banget waktu bareng kamu.</p>
+    <p>Aku cuman gak berani bilang langsung waktu itu, jadi sekarang aku bilang lewat ini...</p>
+  </section>
+
+  <section class="final">
+    <h1>Mau Gak Jadi Pacarku?</h1>
+    <button class="btn" onclick="showMessage()">YES! 💖</button>
+    <button class="btn" id="noBtn" onclick="hideNo()">No 😢</button>
+
+    <div class="yes-message" id="yesMessage">
+      YAYY! 🎉 Aku janji bakal jagain kamu baik-baik 🥰<br />
+      Love you selalu Sayang 🤗
+    </div>
+
+    <div class="no-message" id="noMessage">
+      YEKKK, Tombol e Ilang<br />
+      Coba lagi ya 😅
+    </div>
+  </section>
+
+  <script>
+    function showMessage() {
+      document.getElementById("yesMessage").style.display = "block";
+      document.getElementById("noBtn").style.display = "none";
+      document.getElementById("noMessage").style.display = "none";
+    }
+
+    function hideNo() {
+      document.getElementById("noBtn").style.display = "none";
+      document.getElementById("noMessage").style.display = "block";
+    }
+  </script>
+</body>
+</html>
