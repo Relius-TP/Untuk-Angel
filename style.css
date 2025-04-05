@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff0f6;
+  color: #333;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #d6336c;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.final {
+  background: #ffe3ec;
+  padding: 60px 20px;
+}
+
+.btn {
+  background-color: #d6336c;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  width: 70%;
+  max-width: 300px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #c2255c;
+}
+
+.yes-message,
+.no-message {
+  display: none;
+  font-size: 1.5em;
+  color: #d6336c;
+  margin-top: 30px;
+}
